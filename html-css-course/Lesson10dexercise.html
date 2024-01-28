@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .div1{
+                width:220px;
+                height:380px;
+                border-width: 2px;
+                border-style:solid;
+                border-color:rgb(246, 246, 246);
+                display: inline-block;
+                margin-right: 6px;
+            }
+
+            .div2{
+                width:220px;
+                height:225px;
+                border-width: 1px;
+                border-color: rgb(246, 246, 246);
+                border-width:1px;
+                display: inline-block;
+                border-style: solid;
+            }
+
+            .div3{
+                width:220px;
+                height:155px;
+                display:inline-block;
+                
+                border-color: bisque;
+                border-width: 2px;
+                background-color: rgb(246, 246, 246);
+                
+            }
+
+            .p1{
+                width:20px;
+                height:20px;
+                border-radius: 50%;
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            .div4{
+                width:220px;
+                height:40px;
+                display: inline-block;
+                margin-top: 0px;
+                margin-bottom: 26px;
+                margin-left: 3px;
+            }
+
+            .div5, .div6{
+                display:inline-block;
+                font-weight: bold;
+                color:grey;
+            }
+
+            .bt1{
+                width:120px;
+                height:30px;
+                background-color: blue;
+                border: none;
+                border-radius: 8px;
+                color:white;
+                margin-top: 0px;
+                margin-left:4px;
+            }
+
+            .pa1{
+                margin-bottom: 2px;
+                margin-left: 3px;
+                font-family: Arial;
+                font-weight: bold;
+                margin-top:0px;
+            }
+
+            .im1{
+                width: 190px;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        ">
+            <div class="div1">
+                <div class="div2">
+                    <img class="im1" src="thumbnail/cat2.jpg">
+                </div>
+                <div class="div3">
+                    <p class="pa1">Oliver</p>
+                    <div class="div4">
+                        <div class="div5">
+                            <img class="p1" src="thumbnail/catphoto.webp">
+                        </div>
+                        <div class="div6">
+                            <p>2 mutual friends</p>
+                        </div>
+                    </div>
+                    <button class="bt1">Add friend</button>
+                </div>
+            </div>
+
+            <div class="div1">
+                <div class="div2">
+                    <img class="im1" src="thumbnail/cat2.jpg">
+                </div>
+                <div class="div3">
+                    <p class="pa1">Oliver</p>
+                    <div class="div4">
+                        <div class="div5">
+                            <img class="p1" src="thumbnail/catphoto.webp">
+                        </div>
+                        <div class="div6">
+                            <p>2 mutual friends</p>
+                        </div>
+                    </div>
+                    <button class="bt1">Add friend</button>
+                </div>
+            </div>
+
+            <div class="div1">
+                <div class="div2">
+                    <img class="im1" src="thumbnail/cat2.jpg">
+                </div>
+                <div class="div3">
+                    <p class="pa1">Oliver</p>
+                    <div class="div4">
+                        <div class="div5">
+                            <img class="p1" src="thumbnail/catphoto.webp">
+                        </div>
+                        <div class="div6">
+                            <p>2 mutual friends</p>
+                        </div>
+                    </div>
+                    <button class="bt1">Add friend</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

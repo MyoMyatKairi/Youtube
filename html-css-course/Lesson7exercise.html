@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lesson7 Exercise.</title>
+    </head>
+    <style>
+       .p1{
+        width: 200px;
+        border-radius: 8px;
+        object-fit: cover;
+        border-width: 2px;
+        border-style: solid;
+        border-color:aqua;
+
+       }
+
+       .p2{
+        object-fit: cover;
+        object-position: center;
+        width:200px;
+        height:200px;
+        margin-left: 12px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: aqua;
+       }
+
+       .p3{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        border-width: 2px;
+        border-style: solid;
+        border-color:aqua;
+       }
+
+       .box input[type=text]{
+        border-radius: 25px;
+       }
+
+      /* Apply basic styles to the search container */
+        .search-container {
+        display: flex;
+        align-items: center;
+        width: 300px; /* Adjust width as needed */
+        box-shadow: 2 2px 4px rgba(20, 3, 3, 0.1);
+        border-radius: 14px;
+        overflow: hidden;
+        background-color: rgb(155, 152, 148);
+        padding-left: 1px;
+        }
+
+        /* Style the search bar input */
+        .search-bar {
+        padding: 10px;
+        border: none;
+        width: 100%;
+        background-color: aliceblue;
+        border-radius: 4px 0 0 4px; /* Rounded corners for left side */
+        }
+
+        /* Style the search button */
+        .search-button {
+        padding: 10px 20px;
+        background-color: #ff0000; /* YouTube-like red color */
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 0 4px 4px 0; /* Rounded corners for right side */
+        }
+
+        /* Hover effect for button */
+        .search-button:hover {
+        background-color: blue; /* Darker shade on hover */
+        }
+
+        .email{
+            display: block;
+            font: Arial;
+            width: 500px;
+            
+        }
+
+        input.email{
+            margin: 0.4 rem 0;
+            width: 500px;
+            
+        }
+
+        .p{
+            color: grey;
+            font-size: 12px;
+            width:280px;
+        }
+
+        .button{
+            color: rgb(242, 243, 245);
+            background-color: rgb(17, 14, 166);
+            border-radius: 18px;
+            border:none;
+            width: 120px;
+            height: 40px;
+        }
+
+        .p4{
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 50%;
+            border-style: none;
+        }
+
+        .type{
+            width: 300px;
+            height: 50px;
+
+        }
+
+        .search-container2{
+            display: flex;
+            align-items: center;
+            width: 300px;
+            box-shadow: 2 2px 4px rgba(20, 3, 3, 0.1);
+            border-radius: 4px;
+        }
+        
+        .search-bar2{
+            padding:10px;
+            border:#921a1a;
+            width:100%;
+            background-color: rgb(244, 242, 241);
+            border-radius: 18px;
+            margin-left: 4px;
+        }
+
+        .button2{
+            width: 120px;
+            height:30px;
+            border-radius: 18px;
+            color:aliceblue;
+            background-color: blue;
+            border: none;
+            font-family: Arial;
+            font-weight: bold;
+            font-size: 12px;
+            margin-left: 14px;            
+        }
+    </style>
+    <body>
+        <img class="p1" src="thumbnail/catphoto.webp">
+        <img class="p2" src="thumbnail/catphoto.webp">
+        <img class="p3" src="thumbnail/catphoto.webp">
+
+        <div class="box">
+            <input type="textbox" placeholder="Search">
+        </div>
+<br>
+<br>
+<br>
+    <div class="search-container">
+        <input type="text" class="search-bar" placeholder="Search google or type URL">
+        <button class="search-button">&#128269</button>
+    </div>
+
+<br>
+<br>
+<br>
+    <div>
+        <label class="email">Email</label>
+        <input type="text" placeholder="">
+        <p class="p">By clicking Agree & Join, you agree to the privacy policy.</p>
+        <button class="button">Agree & Join</button>
+    </div>
+<br>
+<br>
+<br>
+<br>
+    <div class="search-container2">
+        <img class="p4" src="thumbnail/catphoto.webp">
+        <input type="text" class="search-bar2" placeholder="What's happening?">
+        <button class="button2">Tweet</button>
+    </div>    
+    </body>
+</html>
